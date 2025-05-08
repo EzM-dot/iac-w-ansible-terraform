@@ -2,7 +2,7 @@ provider "aws" {
   region = "us-east-1"
 #added from AWS account
 secret_key = " "
-access key = " "
+access_key = " "
 }
 
 resource "aws_security_group" "server_sg" {

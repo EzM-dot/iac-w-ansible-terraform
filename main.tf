@@ -1,6 +1,6 @@
 provider "aws" {
   region = "us-east-1"
-#added from AWS account
+#added from AWS account, secret made
 secret_key = " "
 access_key = " "
 }

@@ -1,8 +1,9 @@
 provider "aws" {
   region = "us-east-1"
-
+#added from AWS account
+secret_key = " "
+access key = " "
 }
-
 
 resource "aws_security_group" "server_sg" {
   name        = "server_sg"
